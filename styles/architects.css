@@ -150,6 +150,21 @@ main>section {
     border-radius: 8px;
 }
 
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -80px;
+    margin-top: -120px;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+
 /* some facts related styles */
 .facts-container {
     display: grid;
@@ -197,6 +212,24 @@ main>section {
 
 .sponsor-companies {
     filter: grayscale(100%);
+}
+
+/* footer section styles */
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-content {
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 /* responsive media query */
